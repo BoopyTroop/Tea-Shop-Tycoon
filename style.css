@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:DarkSeaGreen;"
+}
+
+
+#playBtn {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  text-align: center;
+  font-size: 45px;
+}
+
+#newgameBtn {
+  position: absolute;
+  top: 30%;
+  left: 44%;
+  text-align: center;
+  font-size: 45px;
+}
+
+#money {
+  visibility: hidden;
+}
+
+#title {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  text-align: center;
+  font-size: 45px;
+}
+
+#makeTcName {
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  visibility: hidden;
+}
+
+.ts {
+  font-size: 45px;
+}
+
+
+#colors {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 43%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#color1 {
+  border: 2px solid DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+  background-color: LightPink;
+}
+
+#color2 {
+  border: 2px solid DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+  background-color: Aquamarine;
+}
+
+#color3 {
+  border: 2px solid DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+  background-color: BurlyWood;
+}
+
+#color4 {
+  border: 2px solid DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+  background-color: Khaki;
+}
+
+#color5 {
+  border: 2px solid DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+  background-color: Lavender;
+}
+#color6 {
+  border: 2px solid DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+  background-color: LightSkyBlue;
+}
+
+#USbtn {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  font-size: 35px;
+  height: 100px;
+  width: 200px;
+}
+
+#UKbtn {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  font-size: 35px;
+  height: 100px;
+  width: 200px;
+}
+
+#JPbtn {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  font-size: 35px;
+  height: 100px;
+  width: 200px;
+}
+
+#Frbtn {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 75%;
+  font-size: 35px;
+  height: 100px;
+  width: 200px;
+}

@@ -1,0 +1,133 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color;"
+}
+
+#tstitle {
+  text-align: center;
+}
+
+#money {
+  color: green;
+  text-align: center;
+}
+
+.switch {
+  top: 15%;
+  right: 52%;
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#open {
+  color: darkred;
+  text-transform: uppercase;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+#pricebox {
+  position: absolute;
+  top: 22%;
+  left: 45%;
+  font-size: 25px;
+  width: 90px;
+  text-align: center;
+}
+
+#buyship {
+  position: absolute;
+  top: 32%;
+  left: 45%;
+  font-size: 35px;
+}
+
+#setp {
+  position: absolute;
+  top: 22%;
+  left: 50.5%;
+  font-size: 25px;
+  text-align: center;
+  width: 120px;
+}
+
+#selectbox {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 35px;
+}
+
+#help {
+  position: absolute;
+  top: 22%;
+  left: 75%;
+  text-align: center;
+  font-size: 30px;
+  width: 420px;
+}
+
+#stock {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  font-size: 35px;
+}

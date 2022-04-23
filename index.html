@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tea Shop Tycoon</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <script src="script.js"></script>
+</head>
+
+<body onload="doStuff()">
+
+<h1 id="title">Tea Shop Tycoon by Anthony</h1>
+  
+<button id="newgameBtn" onclick="newgame()">New Game</button>
+
+<button id="playBtn" onclick="play()">Continue</button>
+
+
+<div id="makeTcName">
+  <input type="text" placeholder="Name of your tea shop" class="ts" id="tsname">
+  <button onclick="setTcName()" class="ts">Enter</button>
+</div>
+
+<div id="colors">
+  <div id="color1" class="colorBtn" onclick="color1()"></div>
+  <div id="color2" class="colorBtn" onclick="color2()"></div>
+  <div id="color3" class="colorBtn" onclick="color3()"></div>
+  <div id="color4" class="colorBtn" onclick="color4()"></div>
+  <div id="color5" class="colorBtn" onclick="color5()"></div>
+  <div id="color6" class="colorBtn" onclick="color6()"></div>
+</div>
+
+<button id="USbtn" onclick="us()">United States</button>
+<button id="UKbtn" onclick="uk()">United Kingdom</button>
+<button id="JPbtn" onclick="jp()">Japan</button>
+<button id="Frbtn" onclick="fr()">France</button>
+
+</body>
+
+</html>
